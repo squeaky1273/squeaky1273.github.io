@@ -1,39 +1,51 @@
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+
+  hr {
+    content: "";
+    width: 150px;
+    height: 1px;
+    /* padding-top: 0px; */
+    padding-bottom: 25px;
+  }
+
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
   /* Desktop Navigation */
-  .nav-menu {
-	position: relative;
-  }
+
+  /* .nav-menu {
+    position: center;
+  } */
 
   .nav-menu ul {
-	list-style: none;
-	/* position: relative; */
+	  list-style: none;
   }
   
   .nav-menu > ul {
-	display: flex;
+    display: flex;
+    justify-content: center;
   }
   
   .nav-menu > ul > li {
-	white-space: nowrap;
-	padding: 15px 0 10px 50px;
-	position: center;
+    white-space: nowrap;
+    padding: 20px 0 10px 50px;
   }
   
   .nav-menu a {
-	color: #000000;
-	transition: 0.3s;
-	font-size: 15px;
-	font-family: "Poppins", sans-serif;
-	font-weight: 500;
+    color: #000000;
+    transition: 0.3s;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
   }
 
   .vertical-line {
-	border-left: 1px solid #ccc;
-	height: 30px;
-	margin: 0 20px;
-	flex-direction: column;
+    border-left: 1px solid #ccc;
+    height: 30px;
+    margin: 0 20px;
+    flex-direction: column;
 }
 
   /*--------------------------------------------------------------
@@ -42,50 +54,65 @@
   section {
     padding: 60px 0;
     overflow: hidden;
-    }
     
-    .section-bg {
+  }
+    
+  .section-bg {
     background-color: #f6f7f6;
-    }
+  }
     
-    .section-title {
+  .section-title {
       padding-bottom: 40px;
+  }
+
+  .section-title h1 {
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 55px;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+  }
+    
+  .section-title h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #0c041f;
+    margin: 4px 10px;
     }
     
-    .section-title h2 {
-      font-size: 20px;
-      font-weight: 500;
-      padding: 0;
-      line-height: 1px;
-      margin: 0 0 5px 0;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #aaaaaa;
-      font-family: "Poppins", sans-serif;
-    }
+  .section-title p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
+  }
 
-    .section-title h2::after {
-      content: "";
-      width: 120px;
-      height: 1px;
-      display: inline-block;
-      background: #0c041f;
-      margin: 4px 10px;
-      }
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+  #footer {
+    color: #37423b;
+    font-size: 14px;
+    /* background: #e2e2e2; */
+    position: relative;
+  }
     
-    .section-title p {
-      margin: 0;
-      margin: 0;
-      font-size: 36px;
-      font-weight: 700;
-      text-transform: uppercase;
-      font-family: "Poppins", sans-serif;
-      color: #37423b;
-    }
-
-
-    hr {
-      content: "";
-      width: 120px;
-      height: 1px;
-    }
