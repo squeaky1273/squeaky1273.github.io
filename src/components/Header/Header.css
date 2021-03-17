@@ -1,0 +1,19 @@
+.Header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  }
+
+.Header .nav-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+.Header .nav-link-active {
+    border-bottom: 2px solid;
+  }
