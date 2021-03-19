@@ -24,17 +24,9 @@ function Header() {
             activeClassName="nav-link-active"
             exact
             to="/articles">Articles</NavLink>
-          
-          <NavLink
-            className="nav-link"
-            activeClassName="nav-link-active"
-            exact
-            to="/resume.pdf">Resume</NavLink>
-          
-          {/* <NavLink
-            className="nav-link"
-            activeClassName="nav-link-active"
-            AiFillMediumSquare></NavLink> */}
+
+          {/* <span className="res">
+            <a href={`${process.env.PUBLIC_URL}resume.pdf`}>Resume</a></span> */}
 
         </div>
 

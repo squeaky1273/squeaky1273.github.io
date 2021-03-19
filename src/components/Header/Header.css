@@ -5,6 +5,8 @@
   align-items: baseline;
   padding: 1em;
   margin-bottom: 2em;
+  /* color: white; */
+  /* color: rgb(2, 158, 2); */
   }
 
 .Header .nav-link {
@@ -12,8 +14,14 @@
     padding: 0.5em 1em;
     font-weight: bold;
     text-decoration: none;
+    font-size: 15px;
+    /* color: white; */
+    /* color: rgb(2, 158, 2); */
   }
 
 .Header .nav-link-active {
     border-bottom: 2px solid;
+    font-size: 15px;
+    /* color: white; */
+    /* color: rgb(2, 158, 2); */
   }

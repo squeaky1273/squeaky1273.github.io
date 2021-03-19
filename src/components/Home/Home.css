@@ -1,15 +1,20 @@
 body {
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.7;
     padding: 1px 50px;
   }
   
   .header{
     margin-top: 7.5%;
-    margin-bottom: 15%;
     text-align: center;
-    font-size: 3em;
+    font-size: 5.5em;
+  }
+
+  .message{
+    margin-top: 6.5%;
+    text-align: center;
+    font-size: 1.5em;
   }
   
   .Typist .Cursor--blinking {
@@ -32,3 +37,9 @@ body {
       opacity: 0; }
     100% {
       opacity: 1; } }
+
+  hr {
+    width: 400px;
+    color: rgb(223, 220, 220);
+    opacity: 0.5
+  }

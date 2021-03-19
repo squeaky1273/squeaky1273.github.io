@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
+  /* background-color: #282c34; */
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -42,5 +43,9 @@ body {
   font-size: 15px;
   line-height: 1.7;
   padding: 1px 50px;
+  /* color: white;
+  background-color: #282c34; */
+  /* background-color: black;
+  color: rgb(2, 158, 2); */
 }
 

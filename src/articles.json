@@ -1,0 +1,16 @@
+[
+    {
+        "ID": 0,
+        "name": "Graph Theory",
+        "image": "1975",
+        "description": "Using the mechanics of Google Maps to explain algorithms in Graph Theory",
+        "medium": "href=https://medium.com/@padyn/graph-theory-w-google-maps-e7092c86ef9c"
+    },
+    {
+        "ID": 1,
+        "name": "Stacks, Stacks And More Stacks",
+        "image": "1975",
+        "description": "An article that gives more insight on the data structure, stacks.",
+        "medium": "href=https://medium.com/@padyn/stacks-stacks-and-more-stacks-3c97e3521ab0"
+    }
+]
