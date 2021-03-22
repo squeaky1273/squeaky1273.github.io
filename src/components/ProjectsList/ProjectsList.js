@@ -1,6 +1,8 @@
 import React from 'react'
 import Project from '../Project/Project';
 import data from '../../projects.js';
+import Typist from 'react-typist';
+import './ProjectsList.css';
 
 function ProjectsList() {
     const projects = data.map(({ ID, name, description, disclaimer, technologies, project, github }) => {
@@ -18,8 +20,16 @@ function ProjectsList() {
     })
 
     return (
-        <div className = "Projects">
-            { projects }
+        <div className = "List">
+            <Typist
+              className="ProjectTitle"
+              avgTypingDelay={40}
+              startDelay={2000}>
+                  Projects
+            </Typist>
+            <div className = "Projects">
+                { projects }
+            </div>
         </div>
     )
 }

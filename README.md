@@ -70,4 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Resources
-- React-typist cretaed by [https://github.com/jstejada/react-typist](https://github.com/jstejada/react-typist)
+- React-typist created by [https://github.com/jstejada/react-typist](https://github.com/jstejada/react-typist)
+
+- Sidebar-nav created by [https://github.com/trendmicro-frontend/react-sidenav](https://github.com/trendmicro-frontend/react-sidenav)
