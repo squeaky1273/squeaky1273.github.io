@@ -2,6 +2,7 @@
 
 import React from 'react'
 import './Header.css';
+import 'font-awesome/css/font-awesome.min.css';
 // import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import SideNav, { NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
 import { HashRouter as Router, Route} from 'react-router-dom'
@@ -26,7 +27,7 @@ function Header() {
                   <SideNav.Nav defaultSelected="">
                     <NavItem eventKey="">
                         <NavIcon>
-                            <i class="fa fa-fw fa-home" />
+                        <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
                         </NavIcon>
                         <NavText>
                             Home
@@ -34,7 +35,7 @@ function Header() {
                     </NavItem>
                     <NavItem eventKey="projects">
                         <NavIcon>
-                            <i class="fa fa-fw fa-device" />
+                            <i class="fa fa-code" style={{ fontSize: '1.75em' }} />
                         </NavIcon>
                         <NavText>
                             Projects
@@ -42,7 +43,7 @@ function Header() {
                     </NavItem>
                     <NavItem eventKey="articles">
                         <NavIcon>
-                            <i className="fa fa-fw fa-cogs" />
+                            <i class="fa fa-pencil" style={{ fontSize: '1.75em' }} />
                         </NavIcon>
                         <NavText>
                             Articles
@@ -50,7 +51,7 @@ function Header() {
                     </NavItem>
                     {/* <NavItem href={process.env.PUBLIC_URL + 'resume.pdf'}>
                         <NavIcon>
-                            <i className="fa fa-fw fa-cogs" />
+                            <i className="fa-file-pdf-o" style={{ fontSize: '1.75em' }} />
                         </NavIcon>
                         <NavText>
                             Resume
@@ -58,7 +59,7 @@ function Header() {
                     </NavItem>
                     <NavItem href="https://github.com/squeaky1273">
                         <NavIcon>
-                            <i className="fa fa-fw fa-cogs" />
+                            <i className="fa-github" />
                         </NavIcon>
                         <NavText>
                             Github

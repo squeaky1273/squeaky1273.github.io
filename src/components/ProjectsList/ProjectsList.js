@@ -5,10 +5,11 @@ import Typist from 'react-typist';
 import './ProjectsList.css';
 
 function ProjectsList() {
-    const projects = data.map(({ ID, name, description, disclaimer, technologies, project, github }) => {
+    const projects = data.map(({ ID, image, name, description, disclaimer, technologies, project, github }) => {
         return (
             <Project
                 key = {ID}
+                image = {image[0]}
                 name = {name}
                 description = {description}
                 disclaimer = {disclaimer}
@@ -27,6 +28,7 @@ function ProjectsList() {
               startDelay={2000}>
                   Projects
             </Typist>
+            <hr />
             <div className = "Projects">
                 { projects }
             </div>

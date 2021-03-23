@@ -5,3 +5,31 @@ p {
 a {
     font-size: 15px;
 }
+
+.Project {
+    color: white;
+    background-color: rgba(237, 65, 65, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 22px 0 rgb(0 0 0 / 30%);
+    flex: 0 1 calc(50% - 30px);
+    margin: 0 15px 60px;
+    max-width: 540px;
+    min-height: 25px;
+    overflow: hidden;
+    border-radius: 15px;
+    overflow-y:auto;
+}
+
+.Project img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 360px;
+    overflow: hidden;
+  }
+  
+  .Project > img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 360px;
+    overflow: hidden;
+  }

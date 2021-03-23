@@ -28,7 +28,7 @@ function Home() {
             </a>
             <br />
             <a href="https://www.linkedin.com/in/padyn-riddell/">
-                LinkedIn
+                LinkedInfa-linkedin-square
             </a>
             <br />
             <a href="https://medium.com/@padyn">

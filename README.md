@@ -73,3 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - React-typist created by [https://github.com/jstejada/react-typist](https://github.com/jstejada/react-typist)
 
 - Sidebar-nav created by [https://github.com/trendmicro-frontend/react-sidenav](https://github.com/trendmicro-frontend/react-sidenav)
+
+- Fonts from ['font-awesome/css/font-awesome.min.css']('font-awesome/css/font-awesome.min.css')
+
