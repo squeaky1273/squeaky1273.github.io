@@ -18,22 +18,20 @@ function Home() {
                 <Typist.Delay ms={3250} />
                 Software Engineer
             </Typist>
-            {/* <br />
-            <a href={process.env.PUBLIC_URL + 'resume.pdf'}>
-                Resume
-            </a>
-            <br />
-            <a href="https://github.com/squeaky1273">
-                Github
-            </a>
-            <br />
-            <a href="https://www.linkedin.com/in/padyn-riddell/">
-                LinkedInfa-linkedin-square
-            </a>
-            <br />
-            <a href="https://medium.com/@padyn">
-                Medium
-            </a> */}
+            <div className = "Media">
+                <a href={process.env.PUBLIC_URL + 'resume.pdf'}>
+                    <i class="fa fa-file-pdf-o" style={{ fontSize: '3em' }} />
+                </a>
+                <a href="https://github.com/squeaky1273">
+                    <i class="fa fa-github" style={{ fontSize: '3em' }} />
+                </a>
+                <a href="https://www.linkedin.com/in/padyn-riddell/">
+                    <i class="fa fa-linkedin" style={{ fontSize: '3em' }} />
+                </a>
+                <a href="https://medium.com/@padyn">
+                    <i class="fa fa-medium" style={{ fontSize: '3em' }} />
+                </a>
+            </div>
         </div>
     )
 }

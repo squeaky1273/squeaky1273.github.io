@@ -43,3 +43,13 @@ body {
     color: rgb(223, 220, 220);
     opacity: 0.5
   }
+
+  .Media {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5.5%;
+  }
+
+  a {
+    width: 50px;
+    padding: 2em;
+  }
