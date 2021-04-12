@@ -1,6 +1,8 @@
 # padyn.dev
 Personal portfolio website of Padyn
 
+![home](home.png)
+
 ### Features
 - Home
 - Projects
