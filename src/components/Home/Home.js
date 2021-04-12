@@ -31,6 +31,9 @@ function Home() {
                 <a href="https://medium.com/@padyn">
                     <i class="fa fa-medium" style={{ fontSize: '3em' }} />
                 </a>
+                <a href="https://medium.com/@padyn">
+                    <i class="fa fa-medium" style={{ fontSize: '3em' }} />
+                </a>
             </div>
         </div>
     )

@@ -1,7 +1,12 @@
 # padyn.dev
-Portfolio website
+Personal portfolio website of Padyn
 
-## Tools
+### Features
+- Home
+- Projects
+- Articles
+
+### Tools
 - React
 - Javascript
 - CSS
@@ -11,5 +16,8 @@ Portfolio website
 
 - Sidebar-nav created by [https://github.com/trendmicro-frontend/react-sidenav](https://github.com/trendmicro-frontend/react-sidenav)
 
-- Fonts from ['font-awesome/css/font-awesome.min.css']('font-awesome/css/font-awesome.min.css')
+- Fonts from ['font-awesome/css/font-awesome.min.css'](font-awesome/css/font-awesome.min.css)
+
+### Acknowledgement
+- Mom & family - Thank you for beliving in me and being encouraging.
 
