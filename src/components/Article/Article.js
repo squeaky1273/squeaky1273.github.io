@@ -6,9 +6,9 @@ function Article(props) {
     return (
         <div className="Article">
             <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt="Hello" />
-            <h4>{ name }</h4>
-            <p>{ description }</p>
-            <a href={ medium }>Read More</a>
+            <h4>{name}</h4>
+            <p>{description}</p>
+            <a href={medium}>Read More</a>
         </div>
     )
 }

@@ -9,7 +9,7 @@ function Home() {
                 className="header"
                 avgTypingDelay={40}
                 startDelay={2000}>
-                padyn
+                Padyn Riddell
             </Typist>
             <hr />
             <Typist
