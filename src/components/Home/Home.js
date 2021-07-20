@@ -19,7 +19,7 @@ function Home() {
                 Software Engineer
             </Typist>
             <div className = "Media">
-                <a href={process.env.PUBLIC_URL + 'Padyn_Riddell_resume.pdf'}>
+                <a href={process.env.PUBLIC_URL + 'padyn_riddell_resume.pdf'}>
                     <i class="fa fa-file-pdf-o" style={{ fontSize: '3em' }} />
                 </a>
                 <a href="https://github.com/squeaky1273">
